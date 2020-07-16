@@ -1,0 +1,124 @@
+body {
+   font-family: 'Open Sans';
+   overflow-y: hidden;
+}
+
+.heading {
+   text-align: center;
+}
+
+.heading p {
+   font-family: 'Montserrat';
+   font-size: 18px;
+}
+
+.heading h1 {
+   font-family: 'Kaushan Script';
+   font-size: 42px;
+
+}
+
+.calculator {
+   width: 320px;
+   height: 520px;
+   background: #eaedef;
+
+   margin: 50px auto;
+   border-radius: 5px;
+
+   transition: all .3s;
+}
+
+.calculator:hover {
+   box-shadow: 1px 1px 10px #111;
+}
+
+/* header */
+.calculator__header {
+   height: 120px;
+   font-weight: bold;
+   font-family: cursive;
+
+   color: #7d7b77;
+}
+
+.history {
+   text-align: right;
+   height: 20px;
+   margin: 0 20px;
+   padding-top: 20px;
+   font-size: 18px;
+}
+
+.output {
+   text-align: right;
+   height: 60px;
+   margin: 10px 20px;
+   font-size: 30px;
+}
+
+/* body */
+.calculator__body {
+   height: 400px;
+}
+
+.number,
+.action,
+.empty {
+   width: 50px;
+   height: 50px;
+   margin: 15px;
+   float: left;
+   border-radius: 50%;
+   border: none;
+   font-weight: bold;
+   font-size: 20px;
+}
+
+.number,
+.action {
+   cursor: pointer;
+   outline: none;
+}
+
+.number,
+.empty {
+   background-color: #eaedef;
+}
+
+.number:active,
+.action:active {
+   font-size: 18px;
+   border: 2px solid lightblue;
+
+}
+
+.number {
+   background-color: #ffe261;
+}
+
+.action {
+   background-color: #aaa;
+}
+
+button:nth-child(4) {
+   background-color: orchid;
+}
+
+button:nth-child(8) {
+   background-color: lightseagreen;
+   padding-top: 12px;
+   font-size: 36px;
+}
+
+button:nth-child(12) {
+   background-color: lightgreen;
+}
+
+button:nth-child(16) {
+   background-color: lightsalmon;
+}
+
+button:nth-child(20) {
+   background-color: khaki;
+}
